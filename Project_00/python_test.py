@@ -1,4 +1,3 @@
-from html.entities import codepoint2name
 import numpy as np
 
 np.random.seed(1)
