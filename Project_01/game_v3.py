@@ -58,6 +58,7 @@ def score_game(random_predict) -> int:
     Returns:
         int: Average number of attempts
     """
+    
     count_ls = []
     random_array = np.random.randint(1,101, size=(1000))
 
@@ -71,4 +72,4 @@ def score_game(random_predict) -> int:
 if __name__ == "__main__":
     # RUN
     score = score_game(random_predict)
-    print(f'Your algorithm guesses the value on average in {score} attempts')
+    print(f'The algorithm finds the number from 1 to 100 in an average of {score} attempts')
