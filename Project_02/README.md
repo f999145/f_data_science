@@ -48,6 +48,9 @@ print(counter_moscow + counter_spb)
 counter_moscow.subtract(counter_spb)
 print(counter_moscow)
 # Counter({'black': 2, 'yellow': 1, 'white': -1, 'red': -2})
+
+print(counter_moscow - counter_spb)
+# Counter({'black': 2, 'yellow': 1})
 ```
 
 *Чтобы получить список всех элементов, которые содержатся в Counter, используется функция elements(). Она возвращает итератор, поэтому, чтобы напечатать все элементы, распакуем их с помощью *:*
@@ -81,6 +84,12 @@ print(counter_moscow.most_common(2))
 # [('black', 4), ('yellow', 3)]
 ```
 
+#### Defaultdict
+
+
+```python
+from collections import defaultdict
+```
 
 ### Модуль Collections. Deque и OrderedDict
 
