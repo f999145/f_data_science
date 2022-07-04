@@ -15,7 +15,7 @@ if False:
 # В итоге мы собираем стек из открытых скобок,
 # и опустошаем его когда назодим закрытые скобки
 
-if False
+if False:
     def brackets(line):
         # Напишите тело функции
         from collections import deque    
@@ -34,4 +34,16 @@ if False
     txt = "(всем привет)"
 
     print(brackets(txt))
+
+# Задание 4.4
+
+# Что подчерпнул для себя
+# Генерация списка из списка с вложенными списками.
+if False:
+    north_list = [elem for bill in north for elem in bill]
+    # Здесь сначала цикл по списку north итератор bill
+    # Потом вложенный цикл по списку bill итератор elem
+    # И этот elem забивается в новый цикл.
+    # То есть это свернутая форма цикла в цикле
+    print(north_list)
 
