@@ -5,6 +5,7 @@ num_03 = 12473.320
 d_01 = 26
 d_02 = 27
 d_03 = 30+4
+#test
 del_num = num_02-num_01
 score_month_01 = (num_02-num_01)/(d_02-d_01)
 score_month_02 = (num_03-num_02)/(d_03-d_02)
