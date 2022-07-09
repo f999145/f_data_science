@@ -82,4 +82,10 @@ if False:
             
     print(task_manager(tasks))
 
+if False:
+    import numpy as np
+
+    nd_arr = np.linspace(0, 12, 12, endpoint=False).reshape(3,4)
+
+    print(nd_arr[:2])
 
