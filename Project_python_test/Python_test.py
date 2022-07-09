@@ -1,5 +1,8 @@
-import numpy as np
-print(*sorted(map(str, set(np.sctypeDict.values()))), sep='\n')
+a = 100
 
-a = np.float128(-456)
-print(np.finfo(a))
+def test():
+    print(a)
+    a = 50
+
+test()
+print(a)
