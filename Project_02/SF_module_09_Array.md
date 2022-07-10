@@ -218,3 +218,12 @@ roots
 sum(roots)
 # 6.732050807568877
 ```
+
+## Операции с векторами
+
+### ***np.linalg.norm( vector )*** - длина вектора
+
+### ***np.linalg.norm( vec1 - vec2 )*** - расстояние между векторами
+### ***np.dot(vec1, vec2)*** - скалярное произведение векторов
+
+[Статистика NumPy](https://pyprog.pro/statistics_functions/statistics_function.html)
