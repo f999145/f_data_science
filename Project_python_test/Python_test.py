@@ -1,8 +1,6 @@
-a = 100
+import numpy as np
 
-def test():
-    print(a)
-    a = 50
-
-test()
-print(a)
+workers = ['Ivan', 'Nikita', 'Maria', 'John', 'Kate']
+ 
+choice = np.random.choice(workers, size=(2,2), replace=False)
+print(choice)

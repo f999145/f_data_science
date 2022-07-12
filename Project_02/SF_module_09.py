@@ -89,3 +89,18 @@ if False:
 
     print(nd_arr[:2])
 
+# Напишите функцию get_chess, которая принимает на вход длину 
+# стороны квадрата a и возвращает двумерный массив формы (a, a), 
+# заполненный 0 и 1 в шахматном порядке. В левом верхнем углу всегда 
+# должен быть ноль.
+
+if False:
+    def get_chess(a):
+        import numpy as np
+        arr = np.zeros((a,a),dtype=np.uint8)
+        arr[1::2,::2] = 1
+        arr[::2,1::2] = 1
+        return arr
+
+    print(get_chess(4))
+
